@@ -1,0 +1,324 @@
+* {
+    margin: 0px 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(33, 30, 30);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.header{
+    padding: 0px 48px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.logo1 img{
+    cursor: pointer;
+}
+.right {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.right p {
+    margin: 0;
+    font-size: 15px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.right p:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+.cta {
+    display: flex;
+    gap: 12px;
+}
+
+/* common */
+.cta button {
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Sign in (dark outline) */
+.btn1 {
+    background: linear-gradient(180deg, #1c1b17, #14130f);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+/* Download (white pill) */
+.btn2 {
+    background: white;
+    color: black;
+    border: 1px solid white;
+    font-weight: 500;
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.btn1:hover {
+    border-color: white;
+    color: aqua;
+    text-decoration: underline;
+}
+
+.btn2:hover {
+    opacity: 0.9;
+    transform: scale(1.02);                 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35); 
+    text-decoration: underline;
+}
+.logo1{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+}
+.logo1 img{
+    width: 97.5px;   
+    height: auto;    
+    object-fit: contain;
+}
+
+
+/* HERO SECTION */
+
+.hero{
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding-left: 60px;
+        /*padding-right: 60px; */
+} 
+.headline{
+    text-align: left;
+    padding-top: 90px;
+}
+.headline button{
+        border-radius: 999px;
+        border: 1px solid gray;
+        cursor: pointer;
+}
+.headline h1{
+    font-size: 26px;
+    font-weight: 350;
+    padding: 0px 0px 22.4px;
+}
+.btn3{
+    font-size: 15px;
+    border-radius: 999px;
+    padding: 12.48px 21.6px 12.8px;
+    background-color: #fff;
+    color:#111   
+}
+.btn3:hover{
+        text-decoration: underline;
+}
+.heroimg{
+    padding-top: 40px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* .logo2 h2{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 40px;
+} */
+.logo2{
+        text-align: center;
+        color: white;
+        margin: 40px 0;
+
+}
+.trusted {
+    text-align: center;
+    color: white;
+    margin: 40px 0;
+}
+.logo-row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.logo-card {
+    width: 140px;
+    height: 80px;
+    background: #111;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-card img {
+    max-width: 80%;
+    max-height: 50%;
+    object-fit: contain;
+}
+
+.section-4{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 20px; 
+}
+
+.link{
+    color: orangered;
+}
+
+.feature-div, .feature-div5, .feature-div6 {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center ;
+}
+.section-4 , .section-5, .section-6 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 20px;
+    /* background: linear-gradient(90deg, #14130F, #1C1B17); */
+}
+.section-5{
+    flex-direction: row-reverse;
+}
+
+.section-8 , .section-9{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+}
+.section-10{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 20px;
+    /* background: linear-gradient(90deg, #14130F, #1C1B17); */
+}
+.text-box {
+    display: flex;
+    flex-direction: column;   
+    gap: 16px;                
+    color: white;
+}
+.section-11 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 10px;
+    /* background: linear-gradient(90deg, #14130F, #1C1B17); */
+} 
+
+.s11div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+}
+
+.section-12 {
+    /* background: #000; */
+    margin-top: 50px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.section-13 {
+    margin-top: 80px;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;   
+    align-items: flex-start;
+    /* background: linear-gradient(90deg, #14130f, #1c1b17); */
+    color: #eaeaea;
+}
+
+.s13div-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 160px;
+}
+
+.s13div-col h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9a9a9a;     
+    margin-bottom: 12px;
+}
+
+.s13div-col p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.s13div-col p:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    padding: 16px 80px;
+    background: #14130f;
+    color: #9a9a9a;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+   text-decoration: underline;
+}
