@@ -162,7 +162,7 @@ body{
 .logo-card {
     width: 140px;
     height: 80px;
-    background: #111;
+    background-color: #0a0a0ac7;
     border-radius: 10px;
     display: flex;
     align-items: center;
