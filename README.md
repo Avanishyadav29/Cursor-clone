@@ -7,7 +7,7 @@ The project is deployed on GitHub Pages and is a work-in-progress, especially in
 ## Live Demo
 
 *View the live version here:*
-👉 https://cursoravanish.netlify.app/
+👉 https:https://cursoravanish.vercel.app/)
 ## Features
 
 Clean UI inspired by the real Cursor website
